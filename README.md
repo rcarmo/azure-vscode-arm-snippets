@@ -1,0 +1,1 @@
+# azure-vscode-arm-snippets
