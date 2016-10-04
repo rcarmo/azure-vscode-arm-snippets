@@ -1,0 +1,30 @@
+{
+  "name": "Azure Resource Manager Snippets",
+  "description": "Code snippets for Azure Resource Manager",
+  "version": "0.1.0",
+  "displayName": "ARM snippets",
+  "publisher": "rcarmo",
+  "icon": "images/azure.png",
+  "galleryBanner": {
+    "theme": "light"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rcarmo/azure-vscode-arm-snippets"
+  },
+  "engines": {
+    "vscode": "0.10.x"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+	  {
+        "language": "json",
+        "path": "./snippets/snippets.json"
+	  }
+    ]
+  }
+}
